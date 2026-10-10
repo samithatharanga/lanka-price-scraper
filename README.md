@@ -35,3 +35,60 @@ Since this extension is open-source and does not require the Chrome Web Store:
 1. **Clone or Download Repository:**
    ```bash
    git clone [https://github.com/samithatharanga/lanka-price-scraper.git](https://github.com/samithatharanga/lanka-price-scraper.git)
+(Or download the ZIP directly from GitHub and extract it).
+
+Open Extensions Page in Browser:
+
+Google Chrome: Visit chrome://extensions/
+
+Microsoft Edge: Visit edge://extensions/
+
+Enable Developer Mode:
+
+Toggle the Developer mode switch located in the top-right corner.
+
+Load the Extension:
+
+Click the "Load unpacked" button on the top-left.
+
+Select the extracted lanka-price-scraper folder.
+
+Pin & Use:
+
+Pin Lanka Price Scraper to your browser toolbar.
+
+Open any product page and click the extension icon to start scraping!
+
+🛠️ Project Architecture
+Plaintext
+lanka-price-scraper/
+├── manifest.json       # Manifest V3 configuration & permission boundaries
+├── background.js       # Background service worker for life-cycle management
+├── content.js          # Heuristic DOM scraping & element picker logic
+├── popup.html          # Clean dark/light hybrid extension interface
+├── popup.js            # Queue management, parsing & Excel download generator
+└── icons/              # Resolution-independent extension icon pack
+    ├── icon16.png
+    ├── icon48.png
+    └── icon128.png
+📊 Analytics & BI Integration
+Exported .csv sheets from this extension can be directly ingested into our Lanka Market BI & SPSS Decision Portal for:
+
+Z-Score Anomaly & Price Outlier Detection
+
+Token-based Same-Product Duplicate Clustering
+
+Standard Deviation & Arbitrage Margins
+
+
+👨‍💻 Author
+Samitha Tharanga Wijesinghe
+
+Founder & Creative Lead, ST Imagix
+
+IT Undergraduate, Nāgānanda International Institute for Buddhist Studies (NIIBS)
+
+GitHub Profile
+
+📜 License
+This project is licensed under the MIT License. Free for personal, academic, and commercial exploration.
